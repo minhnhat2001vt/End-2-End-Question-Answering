@@ -7,7 +7,7 @@ This project includes two main parts: Retriever and Reader, with the goal of bui
 - Source: https://rajpurkar.github.io/SQuAD-explorer/
 ## 2. Reader
 - Pre-process the dataset: Prepares training and validating data for QA model by extracting questions, tokenizing and encoding text, mapping encoded positions back to the original text, and pinpointing the start and end locations of answers within the context.
-- QA model: DistilBERT,
+- QA model: DistilBERT, Transformers (Extractive approach); LSTM (Classification approach).
 - Perform train test split for training.
 ## 3. Evaluation
 - YOLOv8: 0.956 mAP50 on validation set.
